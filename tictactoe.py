@@ -106,10 +106,13 @@ class Board:
 class Bot:
     def __init__(self,first_player=True):
         self.is_first_player = first_player
+        self.move_count = 0
     
     def play_move(self):
         # analyse based on ranking algo
-        pass
+        if self.is_first_player:
+            # first move
+
 
         
 if __name__ == '__main__':
