@@ -1,2 +1,2 @@
 # tictactoe
-tictactoe with bot
+tictactoe 
